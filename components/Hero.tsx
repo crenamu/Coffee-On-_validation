@@ -7,7 +7,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ onReserveClick, onOrderClick }) => {
   // Reliable image showing a productive cafe environment
-  const heroImageUrl = "https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=2070&auto=format&fit=crop";
+  const heroImageUrl = "https://images.unsplash.com/photo-1493857671505-72967e2e2760?q=80&w=2070&auto=format&fit=crop";
 
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });

@@ -16,7 +16,7 @@ const Menu: React.FC<MenuProps> = ({ onOrderClick }) => {
       name: '시그니처 아메리카노', 
       desc: '고소한 견과류 풍미와 묵직한 바디감', 
       price: '4,500', 
-      img: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80' 
+      img: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800&auto=format&fit=crop' 
     },
     { 
       id: 2, 
@@ -24,7 +24,7 @@ const Menu: React.FC<MenuProps> = ({ onOrderClick }) => {
       name: '바닐라 빈 라떼', 
       desc: '천연 바닐라 빈으로 만든 수제 시럽', 
       price: '5,500', 
-      img: 'https://images.unsplash.com/photo-1517701604599-bb29b5dd7326?auto=format&fit=crop&w=800&q=80' 
+      img: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop' 
     },
     { 
       id: 3, 
@@ -32,7 +32,7 @@ const Menu: React.FC<MenuProps> = ({ onOrderClick }) => {
       name: '크림 아인슈페너', 
       desc: '진한 롱블랙 위에 올라간 쫀득한 수제 크림', 
       price: '6,000', 
-      img: 'https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80' 
+      img: 'https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=800&auto=format&fit=crop' 
     },
     { 
       id: 4, 
@@ -40,7 +40,7 @@ const Menu: React.FC<MenuProps> = ({ onOrderClick }) => {
       name: '플레인 크로플', 
       desc: '프랑스산 버터의 풍미가 가득한 크로플', 
       price: '4,000', 
-      img: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80' 
+      img: 'https://images.unsplash.com/photo-1598023130746-888494c25f75?q=80&w=800&auto=format&fit=crop' 
     },
     { 
       id: 5, 
@@ -48,7 +48,7 @@ const Menu: React.FC<MenuProps> = ({ onOrderClick }) => {
       name: '얼그레이 스콘', 
       desc: '홍차의 향긋함이 느껴지는 담백한 스콘', 
       price: '3,800', 
-      img: 'https://images.unsplash.com/photo-1626015442540-344427517c5b?auto=format&fit=crop&w=800&q=80' 
+      img: 'https://images.unsplash.com/photo-1582035306168-54523e1e5504?q=80&w=800&auto=format&fit=crop' 
     },
     { 
       id: 6, 
@@ -56,7 +56,7 @@ const Menu: React.FC<MenuProps> = ({ onOrderClick }) => {
       name: '자몽 허니 블랙티', 
       desc: '상큼한 자몽과 달콤한 꿀의 조화', 
       price: '5,800', 
-      img: 'https://images.unsplash.com/photo-1534042232029-7c1544a0b22d?auto=format&fit=crop&w=800&q=80' 
+      img: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop' 
     },
   ];
 

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Differentiation from './components/Differentiation';
+import SocialProof from './components/SocialProof';
 import BrandStory from './components/BrandStory';
 import Menu from './components/Menu';
 import Events from './components/Events';
@@ -23,16 +25,26 @@ const App: React.FC = () => {
             onOrderClick={() => setIsOrderOpen(true)}
           />
         </section>
+
+        {/* Growth Phase: Differentiation Section */}
+        <section id="differentiation" className="w-full flex justify-center bg-background-light dark:bg-background-dark">
+          <Differentiation />
+        </section>
         
-        <section id="story" className="w-full flex justify-center bg-white dark:bg-[#1e1611]">
-          <BrandStory />
+        {/* Growth Phase: Social Proof Section */}
+        <section id="reviews" className="w-full flex justify-center bg-white dark:bg-[#1e1611]">
+          <SocialProof />
         </section>
 
         <section id="menu" className="w-full flex justify-center">
           <Menu onOrderClick={() => setIsOrderOpen(true)} />
         </section>
 
-        <section id="events" className="w-full flex justify-center bg-white dark:bg-[#1e1611]">
+        <section id="story" className="w-full flex justify-center bg-white dark:bg-[#1e1611]">
+          <BrandStory />
+        </section>
+
+        <section id="events" className="w-full flex justify-center bg-background-light dark:bg-background-dark">
           <Events />
         </section>
       </main>
